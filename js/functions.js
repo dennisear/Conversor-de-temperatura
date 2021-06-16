@@ -1,11 +1,11 @@
-function cargarEscalaUno(){ //Arreglo que carga los signos de la primera lista
+function cargarEscalaUno(){ //Arreglo que carga las escalas de la primera lista
     let escalaUno=['Celsius', 'Fanherenheit', 'Kelvin']
     for (var i in escalaUno){
       document.getElementById('selectEscala1').innerHTML += "<option value='"+escalaUno[i]+"'>"+escalaUno[i]+"</option>";
     } 
 }
 
-function cargarEscalaDos(){ //Arreglo que carga los signos de la primera lista
+function cargarEscalaDos(){ //Arreglo que carga las escalas de la segunda lista
     let escalaDos=['Celsius', 'Fanherenheit', 'Kelvin']
     for (var i in escalaDos){
       document.getElementById('selectEscala2').innerHTML += "<option value='"+escalaDos[i]+"'>"+escalaDos[i]+"</option>";
