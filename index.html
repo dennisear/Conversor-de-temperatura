@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">    
+	</head>
+	<body>
+        <div id="container">
+            <p>CONVERSIÓN DE TEMPERATURA</p>
+            <div class="select">
+                <select name="escalas1" id="selectEscala1">
+                   <option value="">Seleccione primera escala</option> <!--Lista desplegable #1--> 
+                </select>
+                <select name="escalas2" id="selectEscala2">
+                    <option value="">Seleccione segunda escala</option> <!--Lista desplegable #2--> 
+                </select>
+            </div>
+            <input id="num1" class="inp" type="number" placeholder="Cantidad a convertir"/>
+            <a href="#" class="btn btn-white btn-animate"><img src="images/calculadora.png" onclick="conversionTem()"></a> <!--Botón que realizará el cálculo--> 
+            <div class="resultado">
+                <div class="result" id="result"></div>  <!--Espacio donde se almacenará la información-->                  
+            </div> 
+            <div class="footer"><a href="https://gist.github.com/dennisear">Click aquí para más</a></div>
+       </div>
+       <script src="js/functions.js"></script> <!--Enlace con las funciones de la página: opción 3-->
+    </body>
+</html>
